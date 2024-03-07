@@ -45,10 +45,13 @@ android {
         buildConfig true
     }
     dynamicFeatures = [':favorite']
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
 }
 
 dependencies {
-
+    lintChecks project(':lint')
     implementation project(":core")
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.6.1'
