@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="menu_1">Favorite</string>
+    <string name="menu_2">Pengaturan</string>
+    <string name="github_user">Pengguna GitHub</string>
+    <string name="something_wrong">Ups! Ada yang tidak beres</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="title_favorite" tools:keep="@string/title_favorite">Favorite</string>
+    <string name="github_user_detail">Detil Pengguna GitHub</string>
+    <string name="favorites_list">Daftar Favorite</string>
+    <string name="no_favorite">Tidak ada daftar Favorite</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="power_connected">Daya tersambung!</string>
+    <string name="power_disconnected">Listrik terputus!</string>
+</resources>

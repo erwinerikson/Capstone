@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Capstone</string>
+
+    <string name="menu_1">Favorite</string>
+    <string name="menu_2">Setting</string>
+    <string name="github_user">GitHub User\'s</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="title_favorite" tools:keep="@string/title_favorite">Favorite</string>
+    <string name="github_user_detail">GitHub User\'s Detail</string>
+    <string name="favorites_list" tools:keep="@string/favorites_list">Favorites List</string>
+    <string name="no_favorite" tools:keep="@string/no_favorite">There is no Favorites list</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="power_connected">Power connected!</string>
+    <string name="power_disconnected">Power disconnected!</string>
+</resources>
