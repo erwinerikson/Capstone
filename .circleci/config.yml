@@ -1,13 +1,31 @@
 version: 2.1
 
 orbs:
-  android: circleci/android@0.2.1
+  android: circleci/android@2.3.0
 
 jobs:
   build:
-    executor: android/android
+    executor: 
+        name: android/android-machine
+        tag: 2023.09.1
     steps:
       - checkout
+      - android/change-java-version:
+          java-version: 17
+      - run:
+          echo "KEY=\"$KEY\"" >> local.properties
+      - run:
+          echo "BASE_URL=\"$BASE_URL\"" >> local.properties
+      - run:
+          echo "HOSTNAME=\"$HOSTNAME\"" >> local.properties
+      - run:
+          echo "CERT_1=\"$CERT_1\"" >> local.properties
+      - run:
+          echo "CERT_2=\"$CERT_2\"" >> local.properties
+      - run:
+          echo "CERT_3=\"$CERT_3\"" >> local.properties
+      - run:
+          echo "URL_PROFILE=\"$URL_PROFILE\"" >> local.properties
       - restore_cache:
           key: android-orb-v1-
       - run:

@@ -19,8 +19,8 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
 
-        buildConfigField "String", "KEY", GITHUB_API_TOKEN
-        buildConfigField "String", "BASE_URL", URL_API
+        buildConfigField "String", "KEY", KEY
+        buildConfigField "String", "BASE_URL", BASE_URL
         buildConfigField "String", "HOSTNAME", HOSTNAME
         buildConfigField "String", "CERT_1", CERT_1
         buildConfigField "String", "CERT_2", CERT_2
