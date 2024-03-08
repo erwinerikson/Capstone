@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Capstone</string>
+    <string name="app_name">GitHub User\'s</string>
 
     <string name="menu_1">Favorite</string>
     <string name="menu_2">Pengaturan</string>

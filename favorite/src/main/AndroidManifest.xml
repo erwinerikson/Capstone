@@ -18,7 +18,8 @@
         tools:ignore="MissingApplicationIcon">
         <activity
             android:name=".FavoriteActivity"
-            android:exported="true">
+            android:exported="false"
+            tools:ignore="AppLinkUrlError">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
