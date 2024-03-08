@@ -12,6 +12,8 @@ jobs:
       - checkout
       - android/change-java-version:
           java-version: 17
+      - environment:
+          ANDROID_TEST_USES_UNIFIED_TEST_PLATFORM: false
       - run:
           echo "KEY=\"$KEY\"" >> local.properties
       - run:
