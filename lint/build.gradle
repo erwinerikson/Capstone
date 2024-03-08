@@ -16,9 +16,3 @@ dependencies {
     //noinspection GradleDependency
     compileOnly "com.android.tools.lint:lint-checks:30.3.1"
 }
-
-jar {
-    manifest {
-        attributes("Lint-Registry-v2": "com.apm.lint.MyIssueRegistry")
-    }
-}
