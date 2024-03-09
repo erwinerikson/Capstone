@@ -25,34 +25,6 @@ buildscript {
     ext.coroutines_test_version = "1.7.2"
 }
 
-/**@SuppressWarnings('GroovyUnusedAssignment')
-def getPath() {
-    Gradle gradle = getGradle()
-    String tskReqStr = gradle.getStartParameter().getTaskRequests().toString()
-    Pattern pattern
-    String path
-    String fileName = "lint-baseline"
-
-    if (tskReqStr.contains("assemble"))
-        pattern = Pattern.compile("assemble(\\w+)(Release|Debug)")
-    else if (tskReqStr.contains("generate"))
-        pattern = Pattern.compile("generate(\\w+)(Release|Debug)")
-    else if (tskReqStr.contains("lint"))
-        pattern = Pattern.compile("lint(\\w+)(Release|Debug)")
-
-    if(pattern != null) {
-        Matcher matcher = pattern.matcher(tskReqStr)
-
-        if (matcher.find()) {
-            path = matcher.group(1).toLowerCase() + matcher.group(2).toLowerCase()
-            return "lint-baselines/${path}-${fileName}.xml"
-        } else {
-            return "lint-baselines/${fileName}.xml"
-        }
-    }
-    return "lint-baselines/${fileName}.xml"
-}*/
-
 plugins {
     id 'com.android.application' version '8.0.0' apply false
     id 'com.android.library' version '8.0.0' apply false
