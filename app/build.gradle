@@ -44,6 +44,8 @@ android {
     }
     lintOptions {
         baseline file("lint-baseline.xml")
+        warningsAsErrors true
+        abortOnError true
     }
     dynamicFeatures = [':favorite']
 }
