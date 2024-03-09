@@ -78,6 +78,12 @@
   *** rewind();
 }
 
+-dontwarn org.bouncycastle.jsse.*
+-dontwarn org.bouncycastle.jsse.provider.*
+-dontwarn org.conscrypt.*
+-dontwarn org.openjsse.javax.net.ssl.*
+-dontwarn org.openjsse.net.ssl.*
+
 # Uncomment for DexGuard only
 #-keepresourcexmlelements manifest/application/meta-data@value=GlideModule
 
