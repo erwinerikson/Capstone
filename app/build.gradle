@@ -42,10 +42,10 @@ android {
         viewBinding = true
         buildConfig true
     }
-    dynamicFeatures = [':favorite']
-    lint {
-        baseline = file("lint-baseline.xml")
+    lintOptions {
+        baseline file("lint-baseline.xml")
     }
+    dynamicFeatures = [':favorite']
 }
 
 dependencies {
