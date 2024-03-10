@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="greys">#FF999999</color>
-    <color name="greys_dark">#8F8E8F</color>
-
     <color name="git_back">#F3D7CA</color>
     <color name="bottom">#E6A4B4</color>
-    <color name="text_toolbar">#263238</color>
+    <!--<color name="text_toolbar">#263238</color>-->
+    <color name="text_toolbar">#0C359E</color>
+
+    <color name="app_bar_start">#9AD0C2</color>
+    <color name="app_bar_end">#2D9596</color>
 </resources>

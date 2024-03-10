@@ -11,11 +11,11 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     implementation "androidx.navigation:navigation-fragment-ktx:$fragment_ktx_version"
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
+    implementation "androidx.navigation:navigation-ui-ktx:$ui_ktx_version"
 
     implementation "io.insert-koin:koin-core:$koin_version"
     implementation "io.insert-koin:koin-android:$koin_version"
     implementation "io.insert-koin:koin-android-viewmodel:$koin_version"
 
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.10'
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakcanary_version"
 }

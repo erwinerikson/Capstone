@@ -12,7 +12,7 @@
         android:id="@+id/topAppBarLayoutFav"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/greys"
+        android:background="@drawable/git_app_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:title="@string/favorites_list"
-            app:titleTextColor="@color/text_toolbar" />
+            app:titleTextAppearance="@style/toolbar_text" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

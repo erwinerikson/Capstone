@@ -12,7 +12,7 @@
         android:id="@+id/topAppBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/greys_dark"
+        android:background="@drawable/git_app_bar"
         tools:ignore="MissingConstraints">
 
         <com.google.android.material.appbar.MaterialToolbar
@@ -21,7 +21,7 @@
             android:layout_height="?attr/actionBarSize"
             app:menu="@menu/option_menu"
             app:title="@string/github_user"
-            app:titleTextColor="@color/text_toolbar" />
+            app:titleTextAppearance="@style/toolbar_text"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
-        android:background="@color/bottom"
+        android:background="@drawable/git_bottom_nav"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

@@ -12,7 +12,7 @@
         android:id="@+id/topAppBarLayoutDetailUser"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:background="@color/greys"
+        android:background="@drawable/git_app_bar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:title="@string/github_user_detail"
-            app:titleTextColor="@color/text_toolbar" />
+            app:titleTextAppearance="@style/toolbar_text" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

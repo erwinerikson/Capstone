@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Capstone" parent="Base.Theme.Capstone" />
+
+    <style name="toolbar_text">
+        <item name="android:fontFamily">@font/bristle_radiant</item>
+        <item name="android:textColor">@color/text_toolbar</item>
+        <item name="android:textSize">24sp</item>
+    </style>
 </resources>
