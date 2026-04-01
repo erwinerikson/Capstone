@@ -1,6 +1,6 @@
 # GitHub Users
 
-![Screenshot Page](work_software3_.jpg)
+![Screenshot Page](work_software.jpg)
 
 
 Menerapkan dependency rule dari Clean Architecture.
